@@ -1,0 +1,49 @@
+html {
+  min-width: auto;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.signup-form {
+  width: 500px;
+  margin: 0 auto;
+}
+
+input {
+  margin-bottom: 16px;
+}
+
+label {
+  display: block;
+  margin-top: 8px;
+  font-size: 14px;
+}
+
+/* Lifted from vandebron.nl */
+.button-group {
+  display: inline-block;
+  border-radius: 2px;
+  margin-bottom: 8px;
+}
+
+.button-group .button {
+  background-color: #f1f0ef;
+  color: #333d47;
+  border-radius: 3px;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 21px;
+  text-align: center;
+  border: 0;
+  padding: 7px 17px;
+  outline: none;
+}
+
+.button-group .button.active {
+  background-color: #43b02a !important;
+  color: #fff;
+  font-weight: 600;
+}
